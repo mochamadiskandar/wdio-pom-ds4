@@ -1,0 +1,25 @@
+{
+    "name": "wdio-pom-ds4",
+    "version": "",
+    "description": "",
+    "main": "wdio.conf.js",
+    "type": "module",
+    "scripts": {
+        "wdio": "wdio run ./wdio.conf.js"
+    },
+    "author": {
+        "name": "Mochamad Iskandar"
+    },
+    "license": "ISC",
+    "bugs": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mochamadiskandar/wdio-pom-ds4"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^8.39.0",
+        "@wdio/local-runner": "^8.39.0",
+        "@wdio/mocha-framework": "^8.39.0",
+        "@wdio/spec-reporter": "^8.39.0"
+    }
+}
